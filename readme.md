@@ -1,7 +1,7 @@
 
 # Locale-Manager - Simplified Localization
 
-[![npm package](https://nodei.co/npm/locale-manager.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
+[![npm package](https://nodei.co/npm/locale-manager.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/locale-manager)
 
 ## Super simple to use
 
@@ -31,6 +31,8 @@ console.log(localeManager[locale].hello); // Hola
 - Create all supported locale files within the locales directory
 - Enjoy!
 
+---
+
 ## Examples:
 #### Usage:
 ```js
@@ -45,8 +47,8 @@ console.log(localeManager[locale].hello); // Hola
   console.log(localeManager[locale].greet("Bob"); // Hola Bob
 ```
 
-#### Locales:
-##### myNodeProject/locales/english.js
+##### Locales:
+###### myNodeProject/locales/english.js
 ```js
   var english = {
     // locale
@@ -58,7 +60,7 @@ console.log(localeManager[locale].hello); // Hola
   module.exports = english;
 ```
 
-##### myNodeProject/locales/spanish.js
+###### myNodeProject/locales/spanish.js
 ```js
   var spanish = {
     // locale
