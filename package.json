@@ -1,6 +1,6 @@
 {
   "name": "locale-manager",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Tool used to dynamically load localized content.",
   "main": "index.js",
   "scripts": {
