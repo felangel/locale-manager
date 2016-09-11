@@ -8,9 +8,9 @@
 Locale-Manager is designed to be the simplest way possible to localize content while keeping an organized, scalable project structure.
 
 ```js
-let localeManager = require("locale-manager");
+var localeManager = require("locale-manager");
 
-let locale = "en-US";
+var locale = "en-US";
 console.log(localeManager[locale].hello); // Hello
 
 locale = "es-MX";
@@ -36,9 +36,9 @@ console.log(localeManager[locale].hello); // Hola
 ## Examples:
 #### Usage:
 ```js
-  let localeManager = require("locale-manager");
+  var localeManager = require("locale-manager");
 
-  let locale = "en-US";
+  var locale = "en-US";
   console.log(localeManager[locale].hello); // Hello
   console.log(localeManager[locale].greet("Bob"); // Hello Bob
 
